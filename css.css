@@ -1,11 +1,8 @@
-html, body {
-    height: 100%;
-    margin: 0;
-  }
-  .wrapper {
-    min-height: calc(100% - 50px); /*減去footer高度*/
-  }
-  .footer {
-    height: 50px; /*設定footer本身高度*/
-    background-color: yellow;
-  }
+footer {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #303030;
+  color: #FFFFFF;
+  /*height: 50px;*/
+  line-height: 50px;
+}
